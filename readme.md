@@ -1,14 +1,15 @@
 # Teoria Curso JS
 
-### Comentários JavaScript
- . // - Essas duas barras server pra comentários numa única linha;
- . /* */ - Selecione algumas linhas para comentar;
+### Comentários JavaScript e CSS
+```  
+  // - Essas duas barras server pra comentários numa única linha;
+  /* */ - Selecione algumas linhas para comentar;
+```
 
 ### Comentários HTML
- . <!-- Comentário HTML--> 
+ 
+``` !-- Comentário HTML--> ```
 
-### Cometários CSS
- . /* */
 
 ### Criando Variáveis 
  . var nome = 'nome';
@@ -65,11 +66,12 @@
  - Instala a extensão Watch Chrome no VsCode e Google  Chrome e Node Exec no VsCode;
  
   #### Árvore DOM => Todo site tem sua árvore  
-   . Raiz DOM => window => objeto => janela do site 
-   . Windows => objetos (location,document,historyobjetos)
-   . document => Html, Head, Body
+  - Raiz DOM => window => objeto => janela do site 
+  - Windows => objetos (location,document,historyobjetos)
+  - document => Html, Head, Body
 
   #### Como selelecionar elementos no HTML
+  
     1º por Marca == getElementsByTagName()[] plural Elements
     2º por ID == getElementById()
     3º por Nome == getElementsByName()
