@@ -12,17 +12,17 @@
 
 
 ### Criando Variáveis 
- . var nome = 'nome';
- . variáveis primitivas: number, string, boolean;
- . typeof identifica o tipo de varável;
+  - var nome = 'nome';
+  - variáveis primitivas: number, string, boolean;
+  - typeof identifica o tipo de varável;
 
 ### Convertendo Variáveis 
 
-  Number.parseInt(n);
-  Number.parseFloat(n);
-  Number(n);
-  String(n);
-  n.toString()
+  - Number.parseInt(n);
+  - Number.parseFloat(n);
+  - Number(n);
+  - String(n);
+  - n.toString()
 
 ### Manipulando Strings e numbers
 
@@ -63,7 +63,7 @@
 ````
 ### DOM - Document Object Model
 
- - Instala a extensão Watch Chrome no VsCode e Google  Chrome e Node Exec no VsCode;
+  - Instala a extensão Watch Chrome no VsCode e Google  Chrome e Node Exec no VsCode;
  
   #### Árvore DOM => Todo site tem sua árvore  
   - Raiz DOM => window => objeto => janela do site 
@@ -71,7 +71,7 @@
   - document => Html, Head, Body
 
   #### Como selelecionar elementos no HTML
-  
+
     1º por Marca == getElementsByTagName()[] plural Elements
     2º por ID == getElementById()
     3º por Nome == getElementsByName()
