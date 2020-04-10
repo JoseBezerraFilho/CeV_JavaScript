@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cidadão</title>
+</head>
+<body>
+    <h1>Where you from?</h1>
+    Qual o seu país de origem: <input type="text" name="txtorg" id="txtorg">
+    <input type="button" value="Validar" onclick="origem()">
+    <div id="res">
+
+    </div>
+    <script>
+        //var txt = window.document.querySelector('input#txtorg')
+        //var donde = (txt.value)
+        //var res = window.document.querySelector('div#res')
+        function origem(){
+            var txt = window.document.querySelector('input#txtorg')
+            var donde = (txt.value)
+            var res = window.document.querySelector('div#res')
+            res.innerHTML = `<p>Seu país de origem é:<strong> ${donde}</strong>.</p>`
+            if (donde.toLowerCase() == 'brasil') {
+                res.innerHTML += `<p> Logo você é Brasileiro! </p>`
+            } else {
+                res.innerHTML += `<p> Logo você é estrangeiro! </p>`
+            }
+        }
+    </script>
+</body>
+</html>
